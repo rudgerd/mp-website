@@ -601,7 +601,7 @@ export const contentData: ContentProps = {
     'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'ensibus Per ei quaeque s',
       description:
         'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
     },
