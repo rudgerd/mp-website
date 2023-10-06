@@ -1,13 +1,13 @@
 ---
 publishDate: 'June 02 2023'
-title: 'Unlocking Business Potential with Streamlit.io'
+title: 'Unlocking Business Potential with Streamlit'
 description: 'Explore the power of Streamlit.io for small businesses'
 excerpt: 'Discover how Streamlit.io can transform your data into interactive insights for business success.'
 image: 'https://source.unsplash.com/Ac02zYZs22Y/921x576/'
 tags: [streamlit.io, small-business, data-visualization]
 ---
 
-In today's competitive business landscape, harnessing the power of data is essential for informed decision-making. Small businesses can now unlock new possibilities with Streamlit.io, a powerful platform that simplifies the creation of interactive data applications.
+In today's competitive business landscape, harnessing the power of data is essential for informed decision-making. Small businesses can now unlock new possibilities with [Streamlit](https://www.streamlit.io), a powerful platform that simplifies the creation of interactive data applications.
 
 ## <a name="Introduction"></a>Introduction
 
