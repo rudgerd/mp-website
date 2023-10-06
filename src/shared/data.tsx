@@ -89,7 +89,9 @@ export const announcementData: AnnouncementProps = {
 export const headerData: HeaderProps = {
   links: [
     {
-      label: 'Menu',
+      label: 'Home',
+      href: '/',
+      /*label: 'Menu',
       icon: IconChevronDown,
       links: [
         {
@@ -100,23 +102,27 @@ export const headerData: HeaderProps = {
           label: 'About us',
           href: '/about',
         },
-        /*{
+        {
           label: 'Pricing',
           href: '/pricing',
-        },*/
+        },
         {
           label: 'FAQs',
           href: '/faqs',
         },
-        /*{
+        {
           label: 'Privacy Policy',
           href: '/privacy',
         },
         {
           label: 'Terms & Conditions',
           href: '/terms',
-        },*/
-      ],
+        }
+      ],*/
+    },
+    {
+      label: 'About us',
+      href: '/about',
     },
     {
       label: 'Blog',
