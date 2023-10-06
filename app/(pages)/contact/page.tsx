@@ -12,7 +12,7 @@ const Page = () => {
   return (
     <>
       <Contact2 />
-      <Features2 {...featuresData2} />
+      {/* <Features2 {...featuresData2} /> */}
     </>
   );
 };
