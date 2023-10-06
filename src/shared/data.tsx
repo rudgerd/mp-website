@@ -89,29 +89,33 @@ export const announcementData: AnnouncementProps = {
 export const headerData: HeaderProps = {
   links: [
     {
-      label: 'Pages',
+      label: 'Menu',
       icon: IconChevronDown,
       links: [
+        {
+          label: 'Home',
+          href: '/',
+        },
         {
           label: 'About us',
           href: '/about',
         },
-        {
+        /*{
           label: 'Pricing',
           href: '/pricing',
-        },
+        },*/
         {
           label: 'FAQs',
           href: '/faqs',
         },
-        {
+        /*{
           label: 'Privacy Policy',
           href: '/privacy',
         },
         {
           label: 'Terms & Conditions',
           href: '/terms',
-        },
+        },*/
       ],
     },
     {
@@ -197,7 +201,7 @@ export const socialProofData: SocialProofProps = {
   ],
 };
 
-// FAQS data
+// FAQs data for Modulus Partners with Answers
 export const faqsData: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
@@ -205,31 +209,33 @@ export const faqsData: FAQsProps = {
   },
   items: [
     {
-      title: 'Who we are and what we do?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'Who is Modulus Partners and what do they do?',
+      description: `Modulus Partners is a leading technology and data consultancy firm dedicated to helping businesses enhance their technical capabilities and harness the power of data. We provide comprehensive assessment services, strategic partnerships, and customized solutions to drive success.`,
     },
     {
-      title: 'What values and principles guide our work?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'What values and principles guide Modulus Partners\' work?',
+      description: `At Modulus Partners, we are guided by a commitment to excellence, integrity, and innovation. Our work is driven by a set of values that prioritize client success, ethical practices, and staying at the forefront of technological advancements.`,
     },
     {
-      title: 'What is our experience?',
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: 'What experience does we bring to the table?',
+      description: `With years of experience in the tech and data industry, Modulus Partners has a proven track record of helping businesses transform and thrive. Our team of experts brings a wealth of knowledge to ensure the success of your projects.`,
     },
     {
-      title: 'What is our team like?',
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: 'What is the team like?',
+      description: `The Modulus Partners team is a dynamic and skilled group of professionals who are passionate about technology and data. We believe in collaboration, continuous learning, and leveraging our diverse expertise to provide top-notch solutions for our clients.`,
     },
     {
       title: 'How do we engage with the community?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      description: `Community engagement is a core value at Modulus Partners. We actively participate in community initiatives, knowledge-sharing events, and support programs that align with our mission of empowering businesses through technology and data.`,
     },
     {
-      title: 'What support channels do we offer?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'What support channels does we offer?',
+      description: `Modulus Partners provides comprehensive support channels, including personalized consultations, training programs, and ongoing monitoring services. Our commitment is to ensure that your business receives the support needed for success in the ever-evolving tech landscape.`,
     },
   ],
 };
+
+
 
 // FAQs data for Modulus Partners
 export const faqsData2: FAQsProps = {
@@ -540,41 +546,58 @@ export const featuresData2: FeaturesProps = {
 };
 
 // Feature data 3
+// Feature data
 export const featuresData3: FeaturesProps = {
   header: {
-    title: 'Services',
+    title: (
+      <>
+        Empower Your Business with <span className="whitespace-nowrap">Data Insights</span>
+      </>
+    ),
+    subtitle:
+      'Unlock the full potential of your data with our specialized consulting services that drive business growth and automation.',
+    highlight: 'Data Offerings',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-      icon: IconBrandTailwind,
-    },
-    {
-      title: 'Ready-to-use Components',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      icon: IconComponents,
-    },
-    {
-      title: 'Best Practices',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconListCheck,
-    },
-    {
-      title: 'Excellent Page Speed',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-      icon: IconRocket,
-    },
-    {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Customer Churn Analysis',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconArrowsRightLeft,
+        'Identify patterns and factors contributing to customer churn using advanced analytics, helping you retain valuable customers.',
+      icon: IconMoodHappy,
     },
     {
-      title: 'Open to new ideas and contributions',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
-      icon: IconBulb,
+      title: 'Lead Scoring Strategies',
+      description:
+        'Implement data-driven lead scoring models to prioritize and focus on leads with the highest potential for conversion.',
+      icon: IconScoreboard,
+    },
+    {
+      title: 'Mixed Media Modeling',
+      description:
+        'Utilize sophisticated modeling techniques to optimize your marketing mix and enhance the effectiveness of your media campaigns.',
+      icon: IconBrandFacebook,
+      link: {
+        label: 'Learn more',
+        href: 'https://lightweight-mmm.readthedocs.io/en/latest/index.html',
+      },
+    },
+    {
+      title: 'Advanced Pricing Models',
+      description:
+        'Develop customized pricing models based on data analysis, ensuring competitive pricing strategies and maximizing profitability.',
+      icon: IconCurrencyDollar,
+    },
+    {
+      title: 'Data-Driven Decision Making',
+      description:
+        'Empower your team with insights for informed decision-making, leveraging the power of data to drive business strategies.',
+      icon: IconDatabase,
+    },
+    {
+      title: 'Customized Data Solutions',
+      description:
+        'Tailored data solutions to meet your unique business needs, ensuring a personalized approach to data-driven success.',
+      icon: IconBuilding,
     },
   ],
 };
@@ -1089,8 +1112,6 @@ export const contact2Data: ContactProps = {
   ],
   form: {
     title: 'Ready to Get Started?',
-    description:
-      'Mauris consequat, urna vel varius auctor, enim risus ornare felis, at hendrerit erat justo eu justo. Curabitur sagittis efficitur aliquam. Duis eget porttitor lectus, vel pharetra ex. Nam volutpat nibh ut porta egestas.',
     inputs: [
       {
         type: 'text',

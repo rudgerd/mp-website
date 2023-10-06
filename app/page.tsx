@@ -39,7 +39,7 @@ export default function Page() {
       <Content {...content2Data} />*/}
       <Steps />
       <Testimonial />
-      <FAQs2 {...faqsData2} />
+      <FAQs2 {...faqsData} />
       {/*<Pricing {...pricingData} />*/}
       <Team />
       <Contact />
