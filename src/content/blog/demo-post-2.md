@@ -1,5 +1,5 @@
 ---
-publishDate: 'Oct 06 2023'
+publishDate: 'July 06 2023'
 title: 'Unleashing the Power of Bayesian Marketing Mix Modeling with LightweightMMM'
 description: 'Elevate your advertising strategy with Bayesian Marketing Mix Modeling.'
 excerpt: 'Discover the effectiveness of LightweightMMM in optimizing budget allocation and driving marketing success.'

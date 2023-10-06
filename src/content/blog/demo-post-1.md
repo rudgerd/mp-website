@@ -1,5 +1,5 @@
 ---
-publishDate: 'Nov 02 2022'
+publishDate: 'June 02 2023'
 title: 'Unlocking Business Potential with Streamlit.io'
 description: 'Explore the power of Streamlit.io for small businesses'
 excerpt: 'Discover how Streamlit.io can transform your data into interactive insights for business success.'

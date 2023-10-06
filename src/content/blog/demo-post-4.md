@@ -1,5 +1,5 @@
 ---
-publishDate: 'Oct 06 2023'
+publishDate: 'Oct 01 2023'
 title: 'Crafting a Data Strategy for Small Businesses: A Comprehensive Guide'
 description: 'Unlock the potential of your small business with a strategic approach to data.'
 excerpt: 'Explore the importance of implementing a data strategy and the key steps to kickstart the process for small businesses.'
