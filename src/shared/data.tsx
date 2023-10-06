@@ -201,8 +201,6 @@ export const socialProofData: SocialProofProps = {
 export const faqsData: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
-    subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
     highlight: 'FAQS',
   },
   items: [
@@ -233,41 +231,48 @@ export const faqsData: FAQsProps = {
   ],
 };
 
-// FAQS data 2
+// FAQs data for Modulus Partners
 export const faqsData2: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
-    subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
     highlight: 'FAQS',
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'How can Modulus Partners help my business assess and improve its technical and data capabilities?',
+      description: `Modulus Partners offers a comprehensive assessment service, helping you evaluate your current technical and data capabilities. Our roadmap includes strategies for improvement and the implementation of advanced technologies.`,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'Is it possible to get personalized data solutions from Modulus Partners?',
+      description: `Absolutely! Modulus Partners provides customized data solutions tailored to meet the unique needs of your business. Our team ensures a personalized approach to data-driven success, enhancing your overall efficiency and growth.`,
     },
     {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: 'What kind of strategic partnerships does Modulus Partners offer to enhance my business?',
+      description: `Modulus Partners collaborates with tech and data experts to guide your business. We offer strategic partnerships and consulting services to help you adopt advanced technologies and data-driven strategies effectively.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: 'Can Modulus Partners assist in the implementation of data analytics tools for my business?',
+      description: `Certainly! Modulus Partners can help integrate data analytics tools into your business processes. Gain actionable insights, analyze key performance indicators, and make informed decisions to drive your business forward.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'How does Modulus Partners ensure data security and compliance for my business?',
+      description: `We prioritize data governance and compliance. Modulus Partners helps your business establish robust data governance policies, ensuring compliance with data protection regulations and safeguarding sensitive information.`,
     },
     {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'What kind of training programs does Modulus Partners offer to enhance the technical and data skills of my team?',
+      description: `Modulus Partners provides training programs to equip your team with the necessary technical and data skills. We foster a culture of continuous learning, empowering your team for success.`,
+    },
+    {
+      title: 'How can Modulus Partners assist in the adoption of cloud technologies for my business?',
+      description: `Migrate to scalable and flexible cloud services with Modulus Partners. We assist in adopting cloud technologies such as AWS, Azure, or Google Cloud for data storage, processing, and accessibility.`,
+    },
+    {
+      title: 'Is Modulus Partners available for ongoing support and optimization of my technical and data infrastructure?',
+      description: `Absolutely! Modulus Partners offers ongoing support and monitoring services. Implement monitoring systems to track and optimize the performance of your technical and data infrastructure.`,
     },
   ],
 };
+
 
 // FAQS3 data
 export const faqs3Data: FAQsProps = {
@@ -416,7 +421,7 @@ export const faqs4Data: FAQsProps = {
 export const callToActionData: CallToActionProps = {
   title: 'Learn More',
   subtitle:
-    'Read our blog and subscribe to our Email list',
+    'Read our blog to learn more about what value we are adding to businesses',
   callToAction: {
     text: 'Get template',
     href: 'https://github.com/onwidget/tailnext',
@@ -427,22 +432,6 @@ export const callToActionData: CallToActionProps = {
       title: 'Blog',
       description: 'See what our team is working on.',
       href: '/blog',
-    },
-    {
-      title: 'Subscribe',
-      form: {
-        icon: IconMail,
-        input: {
-          type: 'email',
-          name: 'email',
-          autocomplete: 'email',
-          placeholder: 'Enter your email address',
-        },
-        btn: {
-          title: 'Subscribe',
-          type: 'submit',
-        },
-      },
     },
   ],
 };
@@ -667,6 +656,12 @@ export const stepsData: StepsProps = {
       icon: IconTarget,
     },
     {
+      title: 'Strategic Partnerships',
+      description:
+        'Collaborate with tech and data experts. Consider forming strategic partnerships or hiring consultants to guide your business in adopting advanced technologies and data strategies.',
+      icon: IconHeartHandshake,
+    },
+    {
       title: 'Data Infrastructure Upgrade',
       description:
         'Invest in a robust data infrastructure. Implement tools and systems to efficiently collect, store, and manage data. Ensure data security and compliance with industry standards.',
@@ -687,7 +682,7 @@ export const stepsData: StepsProps = {
     {
       title: 'Adoption of Cloud Technologies',
       description:
-        'Migrate to cloud services for scalability and flexibility. Leverage cloud technologies for data storage, processing, and accessibility. Explore services like AWS, Azure, or Google Cloud.',
+        'Migrate to cloud services (AWS, Azure, or Google Cloud) for scalability and flexibility. Leverage cloud technologies for data storage, processing, and accessibility.',
       icon: IconCloud,
     },
     {
@@ -697,15 +692,9 @@ export const stepsData: StepsProps = {
       icon: IconShield,
     },
     {
-      title: 'Strategic Partnerships',
+      title: 'Continue Monitoring and Optimizing',
       description:
-        'Collaborate with tech and data experts. Consider forming strategic partnerships or hiring consultants to guide your business in adopting advanced technologies and data strategies.',
-      icon: IconHeartHandshake,
-    },
-    {
-      title: 'Continuous Monitoring and Optimization',
-      description:
-        'Implement monitoring systems to track the performance of your technical and data infrastructure. Continuously optimize processes based on insights and feedback.',
+        'Implement monitoring systems to track and optimize the performance of your technical and data infrastructure.',
       icon: IconAtom,
     },
     {

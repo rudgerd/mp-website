@@ -16,6 +16,7 @@ import {
   callToActionData,
   content2Data,
   contentData,
+  faqsData,
   faqsData2,
   featuresData,
   heroData,
