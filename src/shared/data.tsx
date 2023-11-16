@@ -70,6 +70,8 @@ import awsLogo from '~/assets/images/kisspng-amazon-web-services-logo-cloud-comp
 import snowflakeLogo from '~/assets/images/dlf.pt-periscope-png-4729269.png';
 import streamlitLogo from '~/assets/images/pngaaa.com-5084798.png';
 import pythonLogo from '~/assets/images/kisspng-python-javascript-logo-clip-art-soloist-5b52da8509ef39.3275845315321565490407.png';
+import googleLogo from '~/assets/images/googleCloud.png';
+import tfLogo from '~/assets/images/Tensorflow_logo.svg.png';
 
 
 // Announcement data
@@ -152,7 +154,7 @@ export const heroData: HeroProps = {
       Step into the world of Modulus Partners, where we are more than a team – we are your seasoned professionals in data science, engineering, and analytics, committed to untangling the complexities of your technical and analytical challenges.
     </>
   ),
-  
+
   callToAction: {
     text: 'Free Consultation',
     href: '/contact',
@@ -204,6 +206,16 @@ export const socialProofData: SocialProofProps = {
       src: streamlitLogo,
       alt: 'Streamlit Logo',
     },
+    {
+      link: 'https://cloud.google.com/',
+      src: googleLogo,
+      alt: 'Google Cloud Logo',
+    },
+    {
+      link: 'https://www.tensorflow.org/',
+      src: tfLogo,
+      alt: 'Tensor Flow Logo',
+    },
   ],
 };
 
@@ -223,7 +235,7 @@ export const faqsData: FAQsProps = {
       description: `At Modulus Partners, we are guided by a commitment to excellence, integrity, and innovation. Our work is driven by a set of values that prioritize client success, ethical practices, and staying at the forefront of technological advancements.`,
     },
     {
-      title: 'What experience does we bring to the table?',
+      title: 'What experience do we bring to the table?',
       description: `With years of experience in the tech and data industry, Modulus Partners has a proven track record of helping businesses transform and thrive. Our team of experts brings a wealth of knowledge to ensure the success of your projects.`,
     },
     {
@@ -753,11 +765,6 @@ export const teamData: TeamProps = {
       },
       items: [
         {
-          title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
-          href: 'https://twitter.com/RudgerDame',
-        },
-        {
           title: 'Know more on Linkedin',
           icon: IconBrandLinkedin,
           href: 'https://www.linkedin.com/in/rudgerdame/',
@@ -778,19 +785,14 @@ export const teamData: TeamProps = {
       },
       items: [
         {
-          title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
-          href: '#',
-        },
-        {
           title: 'Know more on Linkedin',
           icon: IconBrandLinkedin,
-          href: '#',
+          href: 'https://www.linkedin.com/in/caleb-dame/',
         },
         {
           title: 'Contact by email',
           icon: IconMail,
-          href: '#',
+          href: 'calebr@modulus-partners.com',
         },
       ],
     },
@@ -1058,7 +1060,7 @@ export const contactData: ContactProps = {
     },
     {
       title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday: 09:00 - 12:00'],
+      description: ['Monday - Friday: 08:00 am - 5:00 pm', 'Saturday: 09:00 am - 1:00 pm'],
       icon: IconClock,
     },
   ],
@@ -1337,9 +1339,8 @@ export const footerData2: FooterProps = {
       texts: ['Office: rudger@modulus-parnters.com', 'Site: https://modulus-partners.com'],
     },
   ],
-  socials: [
-    { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
-    { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
-    { label: 'Facebook', icon: IconBrandLinkedin, href: '#' },,
+  socials: [,
+    { label: 'Instagram', icon: IconBrandInstagram, href: 'https://www.instagram.com/modulus_partners/' },
+    { label: 'Linkedin', icon: IconBrandLinkedin, href: 'https://www.linkedin.com/company/97178136' }, ,
   ]
 };
