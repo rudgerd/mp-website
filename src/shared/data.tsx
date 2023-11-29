@@ -60,7 +60,7 @@ import rudger from '~/assets/images/IMG_0520.jpg';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
 import heroImg from '~/assets/images/hero.jpg';
-import hero2Img from '~/assets/images/hero2.jpg';
+import hero2Img from '~/assets/images/tech_team_upslpash.jpg';
 import roadmapImg from '~/assets/images/roadmap.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
@@ -1336,7 +1336,7 @@ export const footerData2: FooterProps = {
   columns: [
     {
       title: 'Email',
-      texts: ['Office: rudger@modulus-parnters.com', 'Site: https://modulus-partners.com'],
+      texts: ['Office: rudger@modulus-partners.com', 'Site: https://modulus-partners.com'],
     },
   ],
   socials: [,
