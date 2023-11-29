@@ -56,7 +56,7 @@ import {
   TestimonialProps,
 } from './types';
 
-import rudger from '~/assets/images/IMG_0520.jpg';
+import rudger from 'src/assets/images/IMG_0520.jpg';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
 import heroImg from '~/assets/images/hero.jpg';
