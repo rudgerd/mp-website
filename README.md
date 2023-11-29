@@ -1,24 +1,6 @@
 # MP-Website
 
-**Tailnext** is a free and open-source template to make your website using **[NextJS](https://nextjs.org/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account best practices.
-
-## Features
-
-- ✅ Integration with **Tailwind CSS** supporting **Dark mode**.
-- ✅ **Production-ready** scores in [Lighthouse](https://web.dev/measure/) and [PageSpeed Insights](https://pagespeed.web.dev/) reports.
-- ✅ **Image optimization** and **Font optimization**.
-- ✅ Fast and **SEO friendly blog**.
-- ✅ Generation of **project sitemap** and **robots.txt** based on your routes.
-
-<br>
-
-<img src="./screenshot.jpg" alt="Tailnext Theme Screenshot">
-
-[![onWidget](https://custom-icon-badges.demolab.com/badge/made%20by%20-onWidget-556bf2?style=flat-square&logo=onwidget&logoColor=white&labelColor=101827)](https://onwidget.com)
-[![License](https://img.shields.io/github/license/onwidget/tailnext?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/tailnext/blob/main/LICENSE.md)
-[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/onwidget)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/onwidget/tailnext#contributing)
-[![Known Vulnerabilities](https://snyk.io/test/github/onwidget/tailnext/badge.svg?style=flat-square)](https://snyk.io/test/github/onwidget/tailnext)
+Modulus Partners website using **[NextJS](https://nextjs.org/) + [Tailwind CSS](https://tailwindcss.com/)**. 
 
 <br>
 
@@ -40,7 +22,7 @@
 
 <br>
 
-## Demo
+## Template Demo
 
 📌 [https://tailnext.vercel.app/](https://tailnext.vercel.app/)
 
